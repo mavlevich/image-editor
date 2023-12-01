@@ -1,8 +1,8 @@
 import cv2
 
 
-def pixelate_image(image, block_size):
-    image = cv2.imread(image)
+def pixelate_image(image_path, block_size):
+    image = cv2.imread(image_path)
 
     # Get the dimensions of the image
     height, width = image.shape[:2]
@@ -23,4 +23,3 @@ def pixelate_image(image, block_size):
 
 
 pixelate_image('image.jpg', 32)
-
