@@ -22,3 +22,4 @@ def increase_resolution(image_path):
 
 
 increase_resolution('image.jpg')
+
